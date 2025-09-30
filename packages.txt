@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 libgl1
 libglib2.0-0
+=======
+libgl1
+libglib2.0-0
+>>>>>>> 8284622902f4d534010dc8d2a5d9d9873fa61756
