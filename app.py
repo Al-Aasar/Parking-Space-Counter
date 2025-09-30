@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 
-st.title('Parking Space Detection')
+st.markdown("<h1 style='text-align: center;'>Parking Space Detection</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center;'>Detect Empty and Occupied Spots using YOLOv8</h3>", unsafe_allow_html=True)
 
 @st.cache_resource
