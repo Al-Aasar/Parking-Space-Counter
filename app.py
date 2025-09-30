@@ -72,8 +72,9 @@ if uploaded_file is not None:
                 annotated_frame = r.plot()
 
             text_counters = f'Empty: {empty_count} | Occupied: {occupied_count}'
-            cv2.putText(annotated_frame, text_counters, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
+            cv2.putText(annotated_frame, text_counters, (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 255, 0), 4, cv2.LINE_AA)
             frame_placeholder.image(annotated_frame, channels='BGR', use_column_width=True, caption=text_counters)
+
             
         cap.release()
         st.success("Video processing complete!")
